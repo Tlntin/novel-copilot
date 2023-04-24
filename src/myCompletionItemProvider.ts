@@ -16,9 +16,16 @@ export class MyCompletionItemProvider implements vscode.CompletionItemProvider {
     // Convert the data to completion items
     for (const item of this.data) {
       const completionItem = new vscode.CompletionItem(item.label);
-      completionItem.detail = item.detail;
-      completionItem.kind = vscode.CompletionItemKind.Text;
-      completionItem.insertText = item.insertText;
+      // completionItem.detail = item.detail;
+      // completionItem.kind = vscode.CompletionItemKind.Text;
+      // completionItem.insertText = item.insertText;
+      const documentation = new vscode.MarkdownString();
+      if (typeof item.insertText === 'string') {
+        documentation.appendText(item.insertText);
+      } else if (item.insertText) {
+        documentation.appendCodeblock(item.insertText.value, "text");
+      }
+      completionItem.documentation = documentation;
       completionItems.push(completionItem);
     }
 

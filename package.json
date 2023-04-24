@@ -1,4 +1,8 @@
 {
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tlntin/rwkv-copilot.git"
+  },
   "name": "rwkv-copilot",
   "displayName": "RWKV-Copilot",
   "description": "",
@@ -19,7 +23,33 @@
         "command": "rwkv-copilot.helloWorld",
         "title": "Run RWKV Copilot"
       }
-    ]
+    ],
+    "configuration": {
+      "type": "object",
+      "title": "RWKV Copilot Extension",
+      "properties": {
+        "server.address": {
+          "type": "string",
+          "default": "localhost",
+          "description": "The address of the server."
+        },
+        "server.port": {
+          "type": "number",
+          "default": 6288,
+          "description": "The port of the server."
+        },
+        "server.generated_length": {
+          "type": "number",
+          "default": 256,
+          "description": "How much text is expected to be generated at one time"
+        },
+        "server.chunk_length": {
+          "type": "number",
+          "default": 512,
+          "description": "Divide the data into blocks for reasoning, which reduces memory usage, but reduces the speed of reasoning."
+        }
+      }
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run package",
