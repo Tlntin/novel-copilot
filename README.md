@@ -1,3 +1,6 @@
+## 中国用户看这个[链接](https://github.com/Tlntin/novel-copilot/blob/main/README_CN.md)
+-----------------------------------
+
 ### Main function
 When you use txt file to write a novel, invoke AI to autocomplete novel hints.
 
