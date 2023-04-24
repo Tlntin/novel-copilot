@@ -1,6 +1,10 @@
 ### 主要功能
 当您使用txt文件写小说时，调用AI自动完成小说提示。
 
+### 支持的语言
+- 中文
+- 英语
+
 ### api接口所在项目
 
 [链接](https://github.com/Tlntin/ChatRWKV-Novel-api)

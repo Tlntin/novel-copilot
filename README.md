@@ -4,6 +4,10 @@
 ### Main function
 When you use txt file to write a novel, invoke AI to autocomplete novel hints.
 
+### Support Language
+- Chinese
+- English
+
 ### The project where the api interface is located
 
 [link](https://github.com/Tlntin/ChatRWKV-Novel-api)
