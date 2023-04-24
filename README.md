@@ -30,7 +30,7 @@ vsce package
 2. Install this Extension and run it.
 
 ### Advanced Custom Settings
-- Open vscode settings (file, preferences, settings), and search "RWKV", than currently there are the following advanced settings
+- Open vscode settings (file, preferences, settings), and search "Novel", than currently there are the following advanced settings
 
 | Name                    | Default   | Function                                                     |
 | ----------------------- | --------- | ------------------------------------------------------------ |
