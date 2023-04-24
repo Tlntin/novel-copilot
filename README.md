@@ -10,7 +10,7 @@ When you use txt file to write a novel, invoke AI to autocomplete novel hints.
 
 ### Screenshot
 ![001.jpg](https://s2.loli.net/2023/04/24/r2JKiw1vxWGdEa9.jpg)
-![002.jpg](https://s2.loli.net/2023/04/24/zGpNcQ16uJICRe9.jpg)
+![002.png](https://s2.loli.net/2023/04/24/qXhPueW2jEvrBRJ.png)
 
 ### For Developer, How to build and run 
 1. install package
