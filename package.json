@@ -1,4 +1,5 @@
 {
+  "publisher": "Tlntin",
   "repository": {
     "type": "git",
     "url": "https://github.com/Tlntin/rwkv-copilot.git"
