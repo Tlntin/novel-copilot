@@ -2,10 +2,10 @@
   "publisher": "Tlntin",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Tlntin/rwkv-copilot.git"
+    "url": "https://github.com/Tlntin/novel-copilot.git"
   },
-  "name": "rwkv-copilot",
-  "displayName": "RWKV-Copilot",
+  "name": "novel-copilot",
+  "displayName": "Novel-Copilot",
   "description": "",
   "version": "0.0.1",
   "engines": {
@@ -21,13 +21,13 @@
   "contributes": {
     "commands": [
       {
-        "command": "rwkv-copilot.helloWorld",
-        "title": "Run RWKV Copilot"
+        "command": "novel-copilot.helloWorld",
+        "title": "Run Novel Copilot"
       }
     ],
     "configuration": {
       "type": "object",
-      "title": "RWKV Copilot Extension",
+      "title": "Novel Copilot Extension",
       "properties": {
         "server.address": {
           "type": "string",

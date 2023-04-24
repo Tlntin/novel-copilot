@@ -49,12 +49,12 @@ function handleGenerateCode(context: vscode.ExtensionContext, statusBarItem: vsc
       body: JSON.stringify(payload),
       headers: {"Content-Type": "application/json"}
     };
-    statusBarItem.text = "Generating code...";
+    statusBarItem.text = "Generating text...";
     statusBarItem.show();
     request.post(url, options, (error, response, body) => {
       if (error) {
         console.error(error);
-        vscode.window.showErrorMessage('Failed to connect RWKV Novel API');
+        vscode.window.showErrorMessage('Failed to connect Novel Novel API');
         return;
       }
       if (response.statusCode !== 200) {
@@ -71,7 +71,7 @@ function handleGenerateCode(context: vscode.ExtensionContext, statusBarItem: vsc
       }
       // 触发自动完成
       vscode.commands.executeCommand('editor.action.triggerSuggest');
-      statusBarItem.text = "RWKV Copilot activated";
+      statusBarItem.text = "Novel Copilot activated";
       statusBarItem.show();
     });
   }
@@ -88,12 +88,12 @@ function handleTextChange(context: vscode.ExtensionContext, statusBarItem: vscod
 
 export function activate(context: vscode.ExtensionContext) {
   let disposable = vscode.commands.registerCommand(
-	'rwkv-copilot.helloWorld', handleGenerateCode
+	'novel-copilot.helloWorld', handleGenerateCode
   );
   context.subscriptions.push(disposable);
 
   let statusBarItem = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Right, 100);
-  statusBarItem.text = "RWKV Copilot activated";
+  statusBarItem.text = "Novel Copilot activated";
   statusBarItem.show();
 
   // 注册 CompletionItemProvider
