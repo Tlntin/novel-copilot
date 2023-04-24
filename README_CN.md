@@ -1,3 +1,9 @@
+# Novel-Copilot
+![logo](logo.png) 
+
+从 vscode 扩展商店安装: [链接](https://marketplace.visualstudio.com/items?itemName=Tlntin.novel-copilot)
+
+
 ### 主要功能
 当您使用txt文件写小说时，调用AI自动完成小说提示。
 

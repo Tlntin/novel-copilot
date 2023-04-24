@@ -1,5 +1,10 @@
-## 中国用户看这个[链接](https://github.com/Tlntin/novel-copilot/blob/main/README_CN.md)
+### [中国用户看这个](https://github.com/Tlntin/novel-copilot/blob/main/README_CN.md)
 -----------------------------------
+
+# Novel-Copilot
+![logo](logo.png) 
+
+install from vscode extension store: [link](https://marketplace.visualstudio.com/items?itemName=Tlntin.novel-copilot)
 
 ### Main function
 When you use txt file to write a novel, invoke AI to autocomplete novel hints.
