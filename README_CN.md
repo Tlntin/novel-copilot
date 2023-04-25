@@ -23,13 +23,13 @@
 ![002.png](https://s2.loli.net/2023/04/24/qXhPueW2jEvrBRJ.png)
 
 ### 对于开发人员，如何构建和运行
-1.安装包
+1. 安装包
 ```bash
 npm install
 ```
 2. 使用 F5/Ctrl+F5 调试扩展
 
-3.用vsce编译vsix(插件离线格式)
+3. 用vsce编译vsix(插件离线格式)
 ```bash
 npm install -g vsce
 vsce package
